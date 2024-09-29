@@ -26,7 +26,7 @@ func main() {
 
 	logger := slog.New(slog.NewJSONHandler(os.Stdout, &slog.HandlerOptions{
 		Level: slog.LevelDebug,
-		AddSource: true,
+		// AddSource: true,
 	}))
 
 	// Create he db connection pool
